@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     
     body {
         background-color: ${props => props.theme.colors.white};
+        color: ${props => props.theme.colors.black};
         font-family: sans-serif;
     }
 `
